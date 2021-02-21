@@ -1,0 +1,28 @@
+name: Create New Milestone
+on:
+  milestone:
+    types: [closed]
+  workflow_dispatch:
+
+jobs:
+  new_milestone:
+    name: Create New Milestone
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
+      PUSH_ACCESS_TOKEN: ${{ secrets.PUSH_ACCESS_TOKEN }}
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: development
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '14.7.0'
+
+    - name: yarn install
+      run: yarn install
+
+    - name: Create New Milestone if needed
+      run: yarn milestone:generate

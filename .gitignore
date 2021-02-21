@@ -1,0 +1,14 @@
+.envrc
+.DS_Store
+
+node_modules/
+.nuxt/
+dist/
+
+firestore-service-account.json
+androiddagashi-serviceaccount.json
+
+# logs
+yarn-error.log
+
+.temp/

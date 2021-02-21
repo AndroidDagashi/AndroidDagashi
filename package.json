@@ -1,0 +1,24 @@
+{
+  "name": "androiddagashi",
+  "repository": "git@github.com:yshrsmz/androiddagashi.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "milestone:generate":"yarn workspace new-milestone generate",
+    "format": "eslint --fix . --ext .js,.ts,.vue --ignore-path .gitignore",
+    "lint": "eslint . --ext .js,.ts,.vue --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "push-dir": "^0.4.1"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
