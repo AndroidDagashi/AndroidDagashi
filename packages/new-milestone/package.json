@@ -6,12 +6,12 @@
     "generate": "ts-node ./index.ts"
   },
   "dependencies": {
-    "@octokit/rest": "^18.2.0",
-    "date-fns": "^2.17.0"
+    "@octokit/rest": "18.2.0",
+    "date-fns": "2.17.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31",
-    "ts-node": "^9.1.1",
-    "typescript": "^4.1.5"
+    "@types/node": "14.14.31",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.5"
   }
 }
