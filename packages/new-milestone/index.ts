@@ -10,7 +10,7 @@ async function main(): Promise<string> {
     timeZone: 'Asiz/Tokyo',
   })
 
-  const milestones = await octokit.issues.listMilestones({
+  const milestones = await octokit.rest.issues.listMilestones({
     owner: OWNER,
     repo: REPO,
     state: 'all',
@@ -39,7 +39,7 @@ async function main(): Promise<string> {
     representation: 'date',
   })}`
 
-  const result = await octokit.issues.createMilestone({
+  const result = await octokit.rest.issues.createMilestone({
     owner: OWNER,
     repo: REPO,
     title: nextTitle,
