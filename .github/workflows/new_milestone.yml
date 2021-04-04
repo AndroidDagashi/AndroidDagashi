@@ -13,16 +13,16 @@ jobs:
       PUSH_ACCESS_TOKEN: ${{ secrets.PUSH_ACCESS_TOKEN }}
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        ref: master
+      - uses: actions/checkout@v2
+        with:
+          ref: master
 
-    - uses: actions/setup-node@v2
-      with:
-        node-version: '14.16.0'
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.16.0'
 
-    - name: yarn install
-      run: yarn install
+      - name: yarn install
+        run: yarn install
 
-    - name: Create New Milestone if needed
-      run: yarn milestone:generate
+      - name: Create New Milestone if needed
+        run: yarn milestone:generate
