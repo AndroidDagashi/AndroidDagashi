@@ -5,10 +5,13 @@
   "license": "MIT",
   "scripts": {
     "milestone:generate": "yarn workspace new-milestone generate",
+    "milestone:buildcheck": "yarn workspace new-milestone buildcheck",
     "format:eslint": "eslint --fix . --ext .js,.ts,.vue --ignore-path .gitignore",
     "format:prettier": "prettier --write .",
     "format": "yarn format:eslint && yarn format:prettier",
-    "lint": "eslint . --ext .js,.ts,.vue --ignore-path .gitignore"
+    "lint:eslint": "eslint . --ext .js,.ts,.vue --ignore-path .gitignore",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:eslint && yarn lint:prettier"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.21.0",

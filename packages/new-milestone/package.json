@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "generate": "ts-node ./index.ts"
+    "generate": "ts-node ./index.ts",
+    "buildcheck": "tsc ./index.ts --outDir ./dist"
   },
   "dependencies": {
     "@octokit/rest": "18.5.3",

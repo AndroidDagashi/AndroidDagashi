@@ -1,0 +1,26 @@
+name: Check for Pull Request
+on:
+  pull_request:
+
+jobs:
+  pull_request:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Tokyo
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14.16.1'
+
+      - name: yarn install
+        run: yarn install
+
+      - name: lint
+        run: yarn lint
+
+      - name: Check if build passes
+        run: yarn milestone:buildchec
