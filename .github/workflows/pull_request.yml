@@ -23,4 +23,4 @@ jobs:
         run: yarn lint
 
       - name: Check if build passes
-        run: yarn milestone:buildchec
+        run: yarn milestone:buildcheck
