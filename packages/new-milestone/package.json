@@ -6,7 +6,7 @@
     "generate": "ts-node ./index.ts"
   },
   "dependencies": {
-    "@octokit/rest": "18.5.2",
+    "@octokit/rest": "18.5.3",
     "date-fns": "2.20.2"
   },
   "devDependencies": {
