@@ -17,7 +17,7 @@ jobs:
         with:
           ref: master
 
-      - uses: actions/setup-node@v2.3.0
+      - uses: actions/setup-node@v2.4.0
         with:
           node-version: '14.17.4'
           cache: 'yarn'
