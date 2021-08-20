@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/setup-node@v2.4.0
         with:
-          node-version: '14.17.4'
+          node-version: '14.17.5'
           cache: 'yarn'
 
       - name: yarn install
