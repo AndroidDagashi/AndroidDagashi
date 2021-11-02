@@ -13,7 +13,7 @@ jobs:
       PUSH_ACCESS_TOKEN: ${{ secrets.PUSH_ACCESS_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v2.3.5
+      - uses: actions/checkout@v2.4.0
         with:
           ref: master
 
