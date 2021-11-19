@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@octokit/rest": "18.12.0",
-    "date-fns": "2.25.0"
+    "date-fns": "2.26.0"
   },
   "devDependencies": {
     "@types/node": "14.17.20",
