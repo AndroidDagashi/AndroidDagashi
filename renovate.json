@@ -1,27 +1,17 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "lockFileMaintenance": {
     "enabled": true
   },
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch"],
       "groupName": "all non-major dependencies",
       "groupSlug": "all-minor-patch"
     },
     {
-      "matchPackagePrefixes": [
-        "@typescript-eslint",
-        "eslint"
-      ],
+      "matchPackagePrefixes": ["@typescript-eslint", "eslint"],
       "groupName": "eslint"
     }
   ]
