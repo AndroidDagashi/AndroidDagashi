@@ -10,7 +10,7 @@ jobs:
       TZ: Asia/Tokyo
 
     steps:
-      - uses: actions/checkout@v3.5.0
+      - uses: actions/checkout@v4.1.1
 
       - uses: actions/setup-node@v3.6.0
         with:
