@@ -13,11 +13,11 @@ jobs:
       PUSH_ACCESS_TOKEN: ${{ secrets.PUSH_ACCESS_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v4.1.1
+      - uses: actions/checkout@v4
         with:
           ref: master
 
-      - uses: actions/setup-node@v3.6.0
+      - uses: actions/setup-node@v3
         with:
           node-version-file: '.node-version'
           cache: 'yarn'
