@@ -2,6 +2,10 @@ name: Check for Pull Request
 on:
   pull_request:
 
+concurrency:
+  group: ci-pullrequest-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   pull_request:
     name: Build
@@ -10,9 +14,9 @@ jobs:
       TZ: Asia/Tokyo
 
     steps:
-      - uses: actions/checkout@v3.5.0
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3.6.0
+      - uses: actions/setup-node@v3
         with:
           node-version-file: '.node-version'
           cache: 'yarn'
