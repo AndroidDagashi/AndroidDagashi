@@ -12,3 +12,11 @@ androiddagashi-serviceaccount.json
 yarn-error.log
 
 .temp/
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
