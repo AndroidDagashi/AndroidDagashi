@@ -308,12 +308,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.1":
-  version: 18.19.1
-  resolution: "@types/node@npm:18.19.1"
+"@types/node@npm:18.19.26":
+  version: 18.19.26
+  resolution: "@types/node@npm:18.19.26"
   dependencies:
     undici-types: ~5.26.4
-  checksum: f687338a6f1c463b03232337652804f62f5ae197ae9517a76cf6543ec5a3e358e41f26da0e4fc1afe4871c4a96eec3e3c440fb4ddb616cdc336b42ca203adb29
+  checksum: d72d4e7e520206a2a05cb3e03a73696fc3bdcdc6ba5330a75cfef4818cb137b260c32dfe85e8b4ea28e8fe92f1d1497e26336c607254c5eaf47032a1b1c8bb6e
   languageName: node
   linkType: hard
 
@@ -499,7 +499,7 @@ __metadata:
     "@typescript-eslint/parser": 6.19.0
     eslint: 8.56.0
     eslint-config-prettier: 9.1.0
-    prettier: 3.1.0
+    prettier: 3.2.5
   languageName: unknown
   linkType: soft
 
@@ -1206,10 +1206,10 @@ __metadata:
   resolution: "new-milestone@workspace:packages/new-milestone"
   dependencies:
     "@octokit/rest": 20.0.2
-    "@types/node": 18.19.1
+    "@types/node": 18.19.26
     date-fns: 2.30.0
-    ts-node: 10.9.1
-    typescript: 5.3.2
+    ts-node: 10.9.2
+    typescript: 5.4.3
   languageName: unknown
   linkType: soft
 
@@ -1305,12 +1305,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.1.0":
-  version: 3.1.0
-  resolution: "prettier@npm:3.1.0"
+"prettier@npm:3.2.5":
+  version: 3.2.5
+  resolution: "prettier@npm:3.2.5"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 44b556bd56f74d7410974fbb2418bb4e53a894d3e7b42f6f87779f69f27a6c272fa7fc27cec0118cd11730ef3246478052e002cbd87e9a253f9cd04a56aa7d9b
+  checksum: 2ee4e1417572372afb7a13bb446b34f20f1bf1747db77cf6ccaf57a9be005f2f15c40f903d41a6b79eec3f57fff14d32a20fb6dee1f126da48908926fe43c311
   languageName: node
   linkType: hard
 
@@ -1453,9 +1453,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:10.9.1":
-  version: 10.9.1
-  resolution: "ts-node@npm:10.9.1"
+"ts-node@npm:10.9.2":
+  version: 10.9.2
+  resolution: "ts-node@npm:10.9.2"
   dependencies:
     "@cspotcode/source-map-support": ^0.8.0
     "@tsconfig/node10": ^1.0.7
@@ -1487,7 +1487,7 @@ __metadata:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 090adff1302ab20bd3486e6b4799e90f97726ed39e02b39e566f8ab674fd5bd5f727f43615debbfc580d33c6d9d1c6b1b3ce7d8e3cca3e20530a145ffa232c35
+  checksum: fde256c9073969e234526e2cfead42591b9a2aec5222bac154b0de2fa9e4ceb30efcd717ee8bc785a56f3a119bdd5aa27b333d9dbec94ed254bd26f8944c67ac
   languageName: node
   linkType: hard
 
@@ -1507,23 +1507,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.3.2":
-  version: 5.3.2
-  resolution: "typescript@npm:5.3.2"
+"typescript@npm:5.4.3":
+  version: 5.4.3
+  resolution: "typescript@npm:5.4.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: d92534dda639eb825db013203404c1fabca8ac630564283c9e7dc9e64fd9c9346c2de95ecebdf3e6e8c1c32941bca1cfe0da37877611feb9daf8feeaea58d230
+  checksum: d74d731527e35e64d8d2dcf2f897cf8cfbc3428be0ad7c48434218ba4ae41239f53be7c90714089db1068c05cae22436af2ecba71fd36ecc5e7a9118af060198
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.3.2#~builtin<compat/typescript>":
-  version: 5.3.2
-  resolution: "typescript@patch:typescript@npm%3A5.3.2#~builtin<compat/typescript>::version=5.3.2&hash=e012d7"
+"typescript@patch:typescript@5.4.3#~builtin<compat/typescript>":
+  version: 5.4.3
+  resolution: "typescript@patch:typescript@npm%3A5.4.3#~builtin<compat/typescript>::version=5.4.3&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 47b2e63418ea7ef7dd0bf359ee41c6fca852c680826089269c5d03673ead471e052b172561f377f9e51212054e5f0fe19dd58085ff7db7b168449a6af704c784
+  checksum: 523ec29bc308b4ca0cec9a139ac08a27939891d8ad620d249cf5e1a35454e37cd7bb52613a1884f1206aa11d2fb1c4c83fb9e939bde542aaa8527ba818cb8177
   languageName: node
   linkType: hard
 
