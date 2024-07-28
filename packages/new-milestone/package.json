@@ -11,7 +11,7 @@
     "date-fns": "2.30.0"
   },
   "devDependencies": {
-    "@types/node": "18.19.1",
+    "@types/node": "20.14.13",
     "ts-node": "10.9.1",
     "typescript": "5.3.2"
   }
