@@ -7,12 +7,12 @@
     "buildcheck": "tsc ./index.ts --outDir ./dist"
   },
   "dependencies": {
-    "@octokit/rest": "20.0.2",
+    "@octokit/rest": "20.1.1",
     "date-fns": "2.30.0"
   },
   "devDependencies": {
-    "@types/node": "18.19.1",
-    "ts-node": "10.9.1",
-    "typescript": "5.3.2"
+    "@types/node": "18.19.42",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
   }
 }
