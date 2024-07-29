@@ -17,6 +17,10 @@ jobs:
         with:
           ref: master
 
+      # run corepack before setup-node
+      # https://github.com/actions/setup-node/issues/899
+      - run: corepack enable yarn
+
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.node-version'
