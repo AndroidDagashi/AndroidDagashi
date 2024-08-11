@@ -2,8 +2,9 @@
   "name": "new-milestone",
   "version": "1.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "generate": "ts-node ./index.ts",
+    "generate": "tsx ./index.ts",
     "buildcheck": "tsc ./index.ts --outDir ./dist"
   },
   "dependencies": {
@@ -12,7 +13,7 @@
   },
   "devDependencies": {
     "@types/node": "18.19.42",
-    "ts-node": "10.9.2",
+    "tsx": "4.17.0",
     "typescript": "5.5.4"
   }
 }
