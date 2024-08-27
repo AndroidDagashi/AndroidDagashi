@@ -405,15 +405,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/rest@npm:21.0.1":
-  version: 21.0.1
-  resolution: "@octokit/rest@npm:21.0.1"
+"@octokit/rest@npm:21.0.2":
+  version: 21.0.2
+  resolution: "@octokit/rest@npm:21.0.2"
   dependencies:
     "@octokit/core": "npm:^6.1.2"
     "@octokit/plugin-paginate-rest": "npm:^11.0.0"
     "@octokit/plugin-request-log": "npm:^5.3.1"
     "@octokit/plugin-rest-endpoint-methods": "npm:^13.0.0"
-  checksum: 10/098188840d24761ce9833f2d9d866d4a6c2fdb9022d4f3cb53f4de44a1b2c90d6db5cc96382d534e139e3aea981593f5f94f693205f7cdd3ac388e266b3702e9
+  checksum: 10/f67fbb1b3e9568f352933c55703cd33354183e48710a146f6a1c5930419006d2d97c08f5b0a29a56fffc9e53f01b34bae2681a577f604172f4331644b85a9779
   languageName: node
   linkType: hard
 
@@ -440,12 +440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.19.42":
-  version: 18.19.42
-  resolution: "@types/node@npm:18.19.42"
+"@types/node@npm:18.19.46":
+  version: 18.19.46
+  resolution: "@types/node@npm:18.19.46"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10/024e8a6fac679fb4ec41a53ffa986806f3ac49b6003c380e84afb088280b463112e056f2c4ad1db3e6e36a60be75a18c3af9903ddeeb483f470e9ea629bee6f2
+  checksum: 10/011c579f55dffc8477615a691a75c0e9d406b6306c0723a4ba0f5f1cc059957e9762db3bd517daae2df2eeba4063f6e3579ab6cf7d3add26e9cc0cd2da755b69
   languageName: node
   linkType: hard
 
@@ -1801,10 +1801,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "new-milestone@workspace:packages/new-milestone"
   dependencies:
-    "@octokit/rest": "npm:21.0.1"
-    "@types/node": "npm:18.19.42"
+    "@octokit/rest": "npm:21.0.2"
+    "@types/node": "npm:18.19.46"
     date-fns: "npm:3.6.0"
-    tsx: "npm:4.17.0"
+    tsx: "npm:4.19.0"
     typescript: "npm:5.5.4"
   languageName: unknown
   linkType: soft
@@ -2231,9 +2231,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsx@npm:4.17.0":
-  version: 4.17.0
-  resolution: "tsx@npm:4.17.0"
+"tsx@npm:4.19.0":
+  version: 4.19.0
+  resolution: "tsx@npm:4.19.0"
   dependencies:
     esbuild: "npm:~0.23.0"
     fsevents: "npm:~2.3.3"
@@ -2243,7 +2243,7 @@ __metadata:
       optional: true
   bin:
     tsx: dist/cli.mjs
-  checksum: 10/192dda2794c1e28b8e57cd5296953f49b2a4bca143a6ac427f30a244f9d2fb0aca6ea8f1d7c8d50ddf87cecc78d482ac68fc2d3f21bbcaaa0e84ef1f2dce0c79
+  checksum: 10/cd9eef1fd7de4ab01cc0fa876b0bc50688cfd7c738c137928c2487021471ce14412c758c006375e3f3b444eee9e2f77f2d69661f1a5df4427bd9ec1250996f2d
   languageName: node
   linkType: hard
 
