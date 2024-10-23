@@ -12,8 +12,8 @@
     "date-fns": "4.1.0"
   },
   "devDependencies": {
-    "@types/node": "18.19.50",
+    "@types/node": "18.19.59",
     "tsx": "4.19.1",
-    "typescript": "5.6.2"
+    "typescript": "5.6.3"
   }
 }
