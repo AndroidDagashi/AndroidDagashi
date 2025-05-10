@@ -8,12 +8,12 @@
     "buildcheck": "tsc ./index.ts --outDir ./dist"
   },
   "dependencies": {
-    "@octokit/rest": "21.0.2",
+    "@octokit/rest": "21.1.1",
     "date-fns": "4.1.0"
   },
   "devDependencies": {
-    "@types/node": "18.19.50",
-    "tsx": "4.19.1",
-    "typescript": "5.6.2"
+    "@types/node": "18.19.100",
+    "tsx": "4.19.4",
+    "typescript": "5.8.3"
   }
 }
