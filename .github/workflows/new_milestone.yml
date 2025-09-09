@@ -13,7 +13,7 @@ jobs:
       PUSH_ACCESS_TOKEN: ${{ secrets.PUSH_ACCESS_TOKEN }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
         with:
           ref: master
 
@@ -21,7 +21,7 @@ jobs:
       # https://github.com/actions/setup-node/issues/899
       - run: corepack enable yarn
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version-file: '.node-version'
           cache: 'yarn'
