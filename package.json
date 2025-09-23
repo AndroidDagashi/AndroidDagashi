@@ -18,11 +18,11 @@
     "@typescript-eslint/parser": "6.21.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "9.1.0",
-    "prettier": "3.5.3"
+    "prettier": "3.6.2"
   },
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.10.3"
 }
