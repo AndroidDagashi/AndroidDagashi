@@ -8,7 +8,7 @@
     "buildcheck": "tsc ./index.ts --outDir ./dist"
   },
   "dependencies": {
-    "@octokit/rest": "21.1.1",
+    "@octokit/rest": "22.0.0",
     "date-fns": "4.1.0"
   },
   "devDependencies": {
