@@ -29,7 +29,7 @@ async function main(): Promise<string> {
     // milestone with 'open' state exists. nothing to do.
     return `open milestone(${latest.number}) still exists.`
   }
-  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+
   const dueOn = parseISO(latest.due_on!)
 
   const nextMilestoneNumber = latest.number + 1
