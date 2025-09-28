@@ -3,29 +3,28 @@ import tseslint from 'typescript-eslint'
 import eslintConfigPrettier from 'eslint-config-prettier'
 
 export default tseslint.config(
+  // Global ignores (from .eslintignore)
+  {
+    ignores: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/coverage/**',
+      '**/.nuxt/**',
+      '.yarn/**',
+      'yarn.lock',
+    ],
+  },
+
   // Base ESLint recommended rules
   eslint.configs.recommended,
 
   // TypeScript-ESLint recommended rules (preserving current extends)
   ...tseslint.configs.recommended,
 
-  // Type-aware linting rules for enhanced type safety
-  ...tseslint.configs.recommendedTypeChecked,
-
-  // Global ignores (from .eslintignore)
+  // Type-aware linting rules for enhanced type safety (only for TS files)
   {
-    ignores: [
-      'node_modules/**',
-      'dist/**',
-      'coverage/**',
-      '.nuxt/**',
-      '.yarn/**',
-      'yarn.lock',
-    ],
-  },
-
-  // TypeScript configuration with project service
-  {
+    files: ['**/*.ts', '**/*.tsx'],
+    extends: [...tseslint.configs.recommendedTypeChecked],
     languageOptions: {
       parser: tseslint.parser,
       parserOptions: {
@@ -39,7 +38,7 @@ export default tseslint.config(
   // Disable type-checked rules for JavaScript files
   {
     files: ['**/*.js', '**/*.mjs', '**/*.cjs'],
-    ...tseslint.configs.disableTypeChecked,
+    extends: [tseslint.configs.disableTypeChecked],
   },
 
   // Custom rules configuration (preserving current empty rules object)

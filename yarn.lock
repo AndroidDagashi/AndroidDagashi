@@ -731,8 +731,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "androiddagashi@workspace:."
   dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:8.44.1"
-    "@typescript-eslint/parser": "npm:8.44.1"
     eslint: "npm:9.36.0"
     eslint-config-prettier: "npm:10.1.8"
     prettier: "npm:3.6.2"
