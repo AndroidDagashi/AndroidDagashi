@@ -249,7 +249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.36.0, @eslint/js@npm:^9.36.0":
+"@eslint/js@npm:9.36.0":
   version: 9.36.0
   resolution: "@eslint/js@npm:9.36.0"
   checksum: 10/a0542f529f87b9ad69ef85c47b0c070b763591a61773b131a9d1d53934a587f0708c05a1a8f48a6805486004a4922c91d696c1e4835ff61f8750ffbded2f0c30
@@ -731,7 +731,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "androiddagashi@workspace:."
   dependencies:
-    "@eslint/js": "npm:^9.36.0"
+    "@eslint/js": "npm:9.36.0"
     eslint: "npm:9.36.0"
     eslint-config-prettier: "npm:10.1.8"
     prettier: "npm:3.6.2"
