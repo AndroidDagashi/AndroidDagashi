@@ -12,6 +12,7 @@
       "Bash(git show:*)",
       "Bash(gh pr comment:*)",
       "Bash(gh pr view:*)",
+      "WebSearch",
       "mcp__serena__activate_project",
       "mcp__serena__check_onboarding_performed",
       "mcp__serena__find_file",
@@ -24,6 +25,7 @@
       "mcp__serena__think_about_task_adherence",
       "mcp__serena__think_about_whether_you_are_done",
       "mcp__serena__write_memory"
-    ]
+    ],
+    "ask": ["Bash(git push:*)", "Bash(rm:*)"]
   }
 }

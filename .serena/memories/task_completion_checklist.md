@@ -3,16 +3,19 @@
 When completing any coding task in this repository, always:
 
 1. **Run linting** to check for issues:
+
    ```bash
    yarn lint
    ```
 
 2. **Fix any linting/formatting issues**:
+
    ```bash
    yarn format
    ```
 
 3. **Verify TypeScript compilation** (if working on new-milestone package):
+
    ```bash
    yarn milestone:buildcheck
    ```

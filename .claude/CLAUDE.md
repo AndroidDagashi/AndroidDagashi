@@ -9,17 +9,20 @@ AndroidDagashi is a GitHub automation project that manages milestone creation fo
 ## Key Commands
 
 ### Development Setup
+
 ```bash
 yarn install              # Install all dependencies
 ```
 
 ### Code Quality
+
 ```bash
 yarn lint                 # Run ESLint and Prettier checks
 yarn format              # Fix ESLint and Prettier issues
 ```
 
 ### Milestone Generation
+
 ```bash
 yarn milestone:generate   # Create new milestone (requires PUSH_ACCESS_TOKEN)
 yarn milestone:buildcheck # Verify TypeScript compilation
@@ -28,6 +31,7 @@ yarn milestone:buildcheck # Verify TypeScript compilation
 ## Architecture
 
 The project is a Yarn workspace monorepo with:
+
 - **packages/new-milestone**: Core milestone generation logic using GitHub API
   - `index.ts`: Main script that checks for open milestones and creates new ones
   - Uses @octokit/rest for GitHub API interactions
@@ -44,6 +48,7 @@ The project is a Yarn workspace monorepo with:
 ## GitHub Actions
 
 The `.github/workflows/new_milestone.yml` workflow:
+
 - Triggers on milestone closure or manual dispatch
 - Runs on Ubuntu with Node.js version from `.node-version`
 - Uses Yarn with corepack
