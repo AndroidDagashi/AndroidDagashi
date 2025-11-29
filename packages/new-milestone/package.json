@@ -4,16 +4,16 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "generate": "tsx ./index.ts",
-    "buildcheck": "tsc ./index.ts --outDir ./dist"
+    "generate": "tsx --tsconfig tsconfig.json ./index.ts",
+    "buildcheck": "tsc --project tsconfig.json"
   },
   "dependencies": {
-    "@octokit/rest": "22.0.0",
+    "@octokit/rest": "22.0.1",
     "date-fns": "4.1.0"
   },
   "devDependencies": {
     "@types/node": "24.10.1",
     "tsx": "4.20.6",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }
