@@ -491,12 +491,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.10.10":
-  version: 24.10.10
-  resolution: "@types/node@npm:24.10.10"
+"@types/node@npm:24.10.12":
+  version: 24.10.12
+  resolution: "@types/node@npm:24.10.12"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10/0b5beb828c0d91c446f55ab6e4ca15527de0437c6cdd2faf55aa6da8666782523d4e1bf5cc9e366ded0b939563032c5db4f7d34131b0446b984325e82d1d908e
+  checksum: 10/94231e8ff4151a97719d9f996a67e8eee01041f337d710762cafbbab2d15290da91c4a0d27b9577fa95d85ce678524d53e1b193f2270850b0746a6e9a43932d4
   languageName: node
   linkType: hard
 
@@ -1577,7 +1577,7 @@ __metadata:
   resolution: "new-milestone@workspace:packages/new-milestone"
   dependencies:
     "@octokit/rest": "npm:22.0.1"
-    "@types/node": "npm:24.10.10"
+    "@types/node": "npm:24.10.12"
     date-fns: "npm:4.1.0"
     tsx: "npm:4.21.0"
     typescript: "npm:5.9.3"
