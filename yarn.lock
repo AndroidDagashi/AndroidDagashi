@@ -258,6 +258,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eslint/js@npm:9.39.4":
+  version: 9.39.4
+  resolution: "@eslint/js@npm:9.39.4"
+  checksum: 10/0a7ab4c4108cf2cadf66849ebd20f5957cc53052b88d8807d0b54e489dbf6ffcaf741e144e7f9b187c395499ce2e6ddc565dbfa4f60c6df455cf2b30bcbdc5a3
+  languageName: node
+  linkType: hard
+
 "@eslint/object-schema@npm:^2.1.7":
   version: 2.1.7
   resolution: "@eslint/object-schema@npm:2.1.7"
@@ -476,12 +483,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.10.13":
-  version: 24.10.13
-  resolution: "@types/node@npm:24.10.13"
+"@types/node@npm:24.12.0":
+  version: 24.12.0
+  resolution: "@types/node@npm:24.12.0"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10/c779d14cf17758a9d603e0c0978c8045bd070e259617ec16f4ddac419ec11aac0e0cf2bb013dab008fdbd2f46c39f82397884662bbdfabeb19bef0079679ea48
+  checksum: 10/e9dcf8a378af5a636353b6d88a6fae018504bab776410ac6b5411e29afbe601ba9d7957356556fc27268a62814ca4085974f785613482c18f739686efcd49655
   languageName: node
   linkType: hard
 
@@ -668,7 +675,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "androiddagashi@workspace:."
   dependencies:
-    "@eslint/js": "npm:9.39.3"
+    "@eslint/js": "npm:9.39.4"
     eslint: "npm:9.39.3"
     eslint-config-prettier: "npm:10.1.8"
     prettier: "npm:3.8.1"
@@ -1565,7 +1572,7 @@ __metadata:
   resolution: "new-milestone@workspace:packages/new-milestone"
   dependencies:
     "@octokit/rest": "npm:22.0.1"
-    "@types/node": "npm:24.10.13"
+    "@types/node": "npm:24.12.0"
     date-fns: "npm:4.1.0"
     tsx: "npm:4.21.0"
     typescript: "npm:5.9.3"
