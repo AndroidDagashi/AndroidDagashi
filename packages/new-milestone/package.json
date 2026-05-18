@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "@octokit/rest": "22.0.1",
-    "date-fns": "4.1.0"
+    "date-fns": "4.2.1"
   },
   "devDependencies": {
-    "@types/node": "24.12.3",
-    "tsx": "4.21.0",
+    "@types/node": "24.12.4",
+    "tsx": "4.22.2",
     "typescript": "5.9.3"
   }
 }
