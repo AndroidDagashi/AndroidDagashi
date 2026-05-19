@@ -1,15 +1,13 @@
 {
-  "extends": ["config:recommended"],
+  "extends": [
+    "github>yshrsmz/renovate-config",
+    "github>yshrsmz/renovate-config:github-actions",
+    "github>yshrsmz/renovate-config:npm"
+  ],
   "lockFileMaintenance": {
     "enabled": true
   },
   "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch",
-      "matchPackageNames": ["*"]
-    },
     {
       "groupName": "eslint",
       "matchPackageNames": ["@typescript-eslint{/,}**", "eslint{/,}**"]
