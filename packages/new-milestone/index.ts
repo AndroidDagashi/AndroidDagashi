@@ -7,7 +7,7 @@ const REPO = 'AndroidDagashi'
 async function main(): Promise<string> {
   const octokit = new Octokit({
     auth: process.env.PUSH_ACCESS_TOKEN,
-    timeZone: 'Asiz/Tokyo',
+    timeZone: 'Asia/Tokyo',
   })
 
   const milestones = await octokit.rest.issues.listMilestones({
