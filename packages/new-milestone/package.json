@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@octokit/rest": "22.0.1",
-    "date-fns": "4.1.0"
+    "date-fns": "4.4.0"
   },
   "devDependencies": {
     "@types/node": "24.12.3",
