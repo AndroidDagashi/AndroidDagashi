@@ -19,7 +19,7 @@
     "eslint-config-prettier": "10.1.8",
     "prettier": "3.8.3",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.59.3"
+    "typescript-eslint": "8.60.1"
   },
   "private": true,
   "workspaces": [
