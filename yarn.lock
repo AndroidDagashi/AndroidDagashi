@@ -661,7 +661,7 @@ __metadata:
   resolution: "androiddagashi@workspace:."
   dependencies:
     "@eslint/js": "npm:10.0.1"
-    eslint: "npm:10.4.1"
+    eslint: "npm:10.6.0"
     eslint-config-prettier: "npm:10.1.8"
     prettier: "npm:3.8.3"
     typescript: "npm:6.0.3"
@@ -883,9 +883,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.4.1":
-  version: 10.4.1
-  resolution: "eslint@npm:10.4.1"
+"eslint@npm:10.6.0":
+  version: 10.6.0
+  resolution: "eslint@npm:10.6.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
@@ -924,7 +924,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10/5722bd0ec1a87f49ee4511c7549dcfa69df0076927b0290b0a3b145425fd357906ffe6dc1307214a0bd344131bf53795fa2cdebfd36ee9146c01d98147044679
+  checksum: 10/36d02cdbe37668e601f255917c605d10a5d06d278648dc72cec21fe23b7b60a53453241b32c382ba8107533cacba70aeec97581cc4f4bb591544b1ada2516335
   languageName: node
   linkType: hard
 
