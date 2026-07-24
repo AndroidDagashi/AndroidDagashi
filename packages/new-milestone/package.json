@@ -12,7 +12,7 @@
     "date-fns": "4.4.0"
   },
   "devDependencies": {
-    "@types/node": "24.13.2",
+    "@types/node": "24.13.3",
     "tsx": "4.23.0",
     "typescript": "6.0.3"
   }
