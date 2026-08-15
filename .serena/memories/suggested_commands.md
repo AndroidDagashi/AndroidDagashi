@@ -3,6 +3,7 @@
 ## Install Dependencies
 
 ```bash
+mise install   # Node.js and Yarn as pinned in mise.toml
 yarn install
 ```
 

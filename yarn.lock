@@ -475,12 +475,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.13.3":
-  version: 24.13.3
-  resolution: "@types/node@npm:24.13.3"
+"@types/node@npm:26.2.0":
+  version: 26.2.0
+  resolution: "@types/node@npm:26.2.0"
   dependencies:
-    undici-types: "npm:~7.18.0"
-  checksum: 10/cfa6ed1e16c4624d1e83b09aeb72a2f50a7e17d837bf5a1259a52e346f33a693afd289402d3b6118ce3abea7aff35f2a4f13a0284b96bc5807a50f0e22e1ec77
+    undici-types: "npm:~8.3.0"
+  checksum: 10/3829dd8c82e7d4858f3cc946ec9e5133c9fa39a0a9173874a6392230665121b42dac1b134e5e10ee132a5487293708c77df253cf41a125e9fd838cc3af72d700
   languageName: node
   linkType: hard
 
@@ -1249,7 +1249,7 @@ __metadata:
   resolution: "new-milestone@workspace:packages/new-milestone"
   dependencies:
     "@octokit/rest": "npm:22.0.1"
-    "@types/node": "npm:24.13.3"
+    "@types/node": "npm:26.2.0"
     date-fns: "npm:4.4.0"
     tsx: "npm:4.23.1"
     typescript: "npm:6.0.3"
@@ -1486,10 +1486,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~7.18.0":
-  version: 7.18.2
-  resolution: "undici-types@npm:7.18.2"
-  checksum: 10/e61a5918f624d68420c3ca9d301e9f15b61cba6e97be39fe2ce266dd6151e4afe424d679372638826cb506be33952774e0424141200111a9857e464216c009af
+"undici-types@npm:~8.3.0":
+  version: 8.3.0
+  resolution: "undici-types@npm:8.3.0"
+  checksum: 10/6681d2837ac75a75ac1cc46090aa2b8ddc7c6b8ecc295a6cdb06838752a730da3d8afeecf05e5ab7903160eafad3a8b6ffa1927e5ded260590f4d4fef18646d5
   languageName: node
   linkType: hard
 

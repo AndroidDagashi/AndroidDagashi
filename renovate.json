@@ -2,7 +2,8 @@
   "extends": [
     "github>yshrsmz/renovate-config",
     "github>yshrsmz/renovate-config:github-actions",
-    "github>yshrsmz/renovate-config:npm"
+    "github>yshrsmz/renovate-config:npm",
+    "github>yshrsmz/renovate-config:tooling"
   ],
   "lockFileMaintenance": {
     "enabled": true
@@ -11,6 +12,23 @@
     {
       "groupName": "eslint",
       "matchPackageNames": ["@typescript-eslint{/,}**", "eslint{/,}**"]
+    },
+    {
+      "description": [
+        "Node 26 は 2026-10 に LTS 化予定の Current だが、本リポジトリは GitHub Actions 上で milestone 生成スクリプトを走らせるだけで配布物がないためリスク限定的と判断し先行採用する。",
+        "27 系（2027-04 予定）へ自動追随しないよう上限は 26 に固定する。"
+      ],
+      "matchPackageNames": ["node", "@types/node"],
+      "allowedVersions": "<=26",
+      "groupName": "Node.js"
+    },
+    {
+      "description": [
+        "Node 25 以降 corepack が Node に同梱されなくなったため、Yarn は mise の npm backend (npm:@yarnpkg/cli-dist) で調達している。",
+        "mise.toml の @yarnpkg/cli-dist と package.json の packageManager は同じバージョンを保つ必要があるため、同一 PR に束ねてドリフトを防ぐ。"
+      ],
+      "matchPackageNames": ["@yarnpkg/cli-dist", "yarn"],
+      "groupName": "Yarn"
     }
   ]
 }

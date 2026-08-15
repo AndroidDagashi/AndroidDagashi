@@ -11,6 +11,7 @@ AndroidDagashi is a GitHub automation project that manages milestone creation fo
 ### Development Setup
 
 ```bash
+mise install              # Install Node.js and Yarn as pinned in mise.toml
 yarn install              # Install all dependencies
 ```
 
@@ -30,7 +31,12 @@ yarn milestone:buildcheck # Verify TypeScript compilation
 
 ## Architecture
 
-The project is a Yarn 4 workspace monorepo (uses corepack):
+Node.js and Yarn are both provisioned by [mise](https://mise.jdx.dev/) from `mise.toml`.
+Yarn comes from the npm backend (`npm:@yarnpkg/cli-dist`) because corepack is no longer
+bundled with Node.js 25+; keep that version in sync with `packageManager` in the root
+`package.json`.
+
+The project is a Yarn 4 workspace monorepo:
 
 - **packages/new-milestone**: Core milestone generation logic
   - `index.ts`: Main script that checks for open milestones and creates new ones
@@ -52,6 +58,6 @@ The project is a Yarn 4 workspace monorepo (uses corepack):
 The `.github/workflows/new_milestone.yml` workflow:
 
 - Triggers on milestone closure or manual dispatch
-- Runs on Ubuntu with Node.js version from `.node-version`
-- Uses Yarn with corepack
+- Runs on Ubuntu with Node.js and Yarn provisioned by `jdx/mise-action` from `mise.toml`
+- Caches the Yarn package cache with `actions/cache`
 - Executes `yarn milestone:generate` with required token
