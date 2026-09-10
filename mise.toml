@@ -1,5 +1,5 @@
 [tools]
-node = "26.7.0"
+node = "26.8.1"
 # Yarn is installed via mise because corepack is no longer bundled with Node 25+.
 # Must keep in sync with `packageManager` in package.json.
 "npm:@yarnpkg/cli-dist" = "4.18.0"
