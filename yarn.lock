@@ -716,9 +716,9 @@ __metadata:
   linkType: hard
 
 "content-type@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "content-type@npm:3.0.0"
-  checksum: 10/24b17acec728546e09fc0dfe7c0301ff2c3aad8fcbaa6dd8cad2c58855adf8a39b31017ab7d70abab9919626c73a2dbca83925985ee88fccbd6b9f703a5a3eb4
+  version: 3.1.0
+  resolution: "content-type@npm:3.1.0"
+  checksum: 10/ecca3f8210510aaac776133003cbdc52431add06b60b5ac8b02bfa8dc59eabc68d4d783eaf458e27898a4afb99e1cd536a8d8298909e05a031150b2aa474ca0f
   languageName: node
   linkType: hard
 
@@ -1106,9 +1106,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^7.0.5":
-  version: 7.0.8
-  resolution: "ignore@npm:7.0.8"
-  checksum: 10/100573dc4ab73ffe0f2231194850a45c6687ac74deb3dce1050add0f849e42d5e530acf59d5612c959afdb83149dec92cfcaf8b44f02d7b57b03fb46fbe9cbc3
+  version: 7.0.9
+  resolution: "ignore@npm:7.0.9"
+  checksum: 10/0364b6e5895a2e3b187654048de07c3369b4d106f51f8c0294c823f717aaf92d4f42d138e52d6d498bfc71f123eddb9d1fdb01977fd1cf1f29cc4f5ceaca2d77
   languageName: node
   linkType: hard
 
